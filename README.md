@@ -8,7 +8,4 @@
 
 [32m                     LazyWare - Simple Lab Generator
 
-[34mDisclaimer[0m : [31mThis tool is for educational lab purposes only![0m
-[34mAuthor[0m : [31mJustakazh[0m
-urfemthings 
 ```
