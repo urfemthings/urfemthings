@@ -1,18 +1,11 @@
-import os
-import platform
-from colorama import Fore, Style, init
-
-init(autoreset=True)
-
-def clear(self):
-    os.system("cls" if "indows" in platform.system() else "clear")
-    print(f"""{Fore.GREEN}
+<div style="background-color: #0d1117; padding: 20px; border-radius: 6px; text-align: left;">
+<pre style="font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace; font-size: 11px; line-height: 1.2; color: #00ff66; margin: 0;">
                                         .n
                                   .dP         .9b.                  ,n.
              4      .qXb         .dP           Xb         .dKb.    .t      .xb
          dx.   9Xb       .dKb   dXXObbo.      .odXXXXb  dOOXXP.   _.xb
-       9XXXXXXXP'XXXXXXXXXXXXXXXXO.   .o0OOOXXXXXXXXXXP` {Fore.YELLOW} v1.0 {Fore.GREEN}
-        `9XXXXXXXXXXP'  `9XX'   `98v8P' LAB   `XXP'  `9XXXXXXXP'
+       9XXXXXXXP'XXXXXXXXXXXXXXXXO.   .o0OOOXXXXXXXXXXP` <span style="color: #ffd700;">v1.0</span>
+        `9XXXXXXXXXXP'  `9XX'   <span style="color: #ff3333; font-weight: bold;">`98v8P' LAB</span>   `XXP'  `9XXXXXXXP'
           `~~~~~~~    9X.         .db|db.         .XP          ~~~~~~~
                         jb.   .dbo.DP`v`9b.odb.  .dX(
                         ,dXXXXXXXXXXXXXXXXb   dXXXXXXXXXXXXXXb.
@@ -25,8 +18,9 @@ def clear(self):
                              X. 9   ' P`X
                              `b   .   d'
 
-                     {Fore.GREEN}LazyWare - Simple Lab Generator
+                     LazyWare - Simple Lab Generator
 
-{Fore.BLUE}Disclaimer {Fore.WHITE}: {Fore.RED}This tool is for educational lab purposes only!
-{Fore.BLUE}Author {Fore.WHITE}    : {Fore.RED}Justakazh / https://github.com/justakazh
-{Style.RESET_ALL}""")
+<span style="color: #3399ff;">Disclaimer</span> <span style="color: #ffffff;">:</span> <span style="color: #ff3333;">This tool is for educational lab purposes only!</span>
+<span style="color: #3399ff;">Author    </span> <span style="color: #ffffff;">:</span> <span style="color: #ff3333;">Justakazh / https://github.com/justakazh</span>
+</pre>
+</div>
